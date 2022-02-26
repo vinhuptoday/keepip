@@ -1,0 +1,8 @@
+# Set prefix to empty if you don't need prefix. Set to: prefix: ""
+prefix: "[&aKeepIP&r] >> "
+enable-keep-inventory: true
+enable-keep-xp: true
+enable-keep-inventory-message: true
+enable-keep-xp-message: true
+kept-inventory-messsage: "Your inventory has been kept"
+kept-xp-message: "Your xp has been kept"

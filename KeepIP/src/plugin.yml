@@ -1,0 +1,16 @@
+name: KeepInventoryXP
+main: com.skeplugin.keepip.Main
+version: 2.0
+description: Keep player's inventory and xp when player death
+api-version: 1.13
+commands:
+   keepip:
+      usage: /<command> <enable|disable|reload>
+permissions:
+   keepip.*:
+     children:
+      keepip.inventory: false
+      keepip.xp: false
+      keepip.reload: false
+      keepip.enable: false
+      keepip.disable: false
